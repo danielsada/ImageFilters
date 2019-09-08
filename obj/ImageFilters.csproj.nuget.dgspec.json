@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/isaicicourel/Documents/GitHub/ImageFilters/ImageFilters.csproj": {}
+  },
+  "projects": {
+    "/Users/isaicicourel/Documents/GitHub/ImageFilters/ImageFilters.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/isaicicourel/Documents/GitHub/ImageFilters/ImageFilters.csproj",
+        "projectName": "ImageFilters",
+        "projectPath": "/Users/isaicicourel/Documents/GitHub/ImageFilters/ImageFilters.csproj",
+        "packagesPath": "/Users/isaicicourel/.nuget/packages/",
+        "outputPath": "/Users/isaicicourel/Documents/GitHub/ImageFilters/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/isaicicourel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Drawing.Primitives": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
